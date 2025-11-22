@@ -4,7 +4,7 @@ public class Principal {
 
         Moto honda = new Moto();
 
-        int totalGastos = honda.viajeMoto();
+        float totalGastos = honda.viajeMoto();
 
         System.out.println("\nEl costo total del viaje fue: $" + totalGastos);
     }
